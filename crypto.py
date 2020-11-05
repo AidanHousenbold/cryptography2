@@ -239,8 +239,8 @@ def decrypt_mhkc(ciphertext, private_key):
 # Converts the asciival to a char and adds
 # it to the list of the original text
         decryptchars.append(chr(asciival))
-
-    return decryptchars
+    returnString = ""
+    return returnString.join(decryptchars)
 
 # Arguments: List
 # Returns: String
